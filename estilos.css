@@ -9,10 +9,25 @@
   background-color: black;
 }
 
-.PrimTitulo{
-  text-align: center;
-  color: "red";
-
+/*----------------------------------------------------*/
+.Div_Titulo{
   font-family: sans-serif;
   font-style:oblique;
+
+  text-align: center;
+}
+
+#img_iluminati01{
+}
+
+#titulo{
+  color: red;
+}
+
+/*----------------------------------------------------*/
+
+.Div_01{
+  text-decoration-style: solid;
+  font-style: normal;
+  color: red;
 }
