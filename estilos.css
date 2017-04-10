@@ -13,21 +13,29 @@
 .Div_Titulo{
   font-family: sans-serif;
   font-style:oblique;
-
-  text-align: center;
 }
 
 #img_iluminati01{
+  vertical-align: middle;
 }
 
 #titulo{
   color: red;
 }
-
 /*----------------------------------------------------*/
 
 .Div_01{
+  width: 450px;
+  margin-left: 50px;
+
+  padding-left: 20px;
+  border: 1px solid black;
+  outline-color: DarkRed;
+  outline-style: groove;
+
   text-decoration-style: solid;
+  font-family: monospace;
   font-style: normal;
-  color: red;
+  color: DarkRed;
+  background-color: DarkGray;
 }
