@@ -16,7 +16,8 @@
 }
 
 #img_iluminati01{
-  vertical-align: middle;
+  display: block;
+  margin: auto;
 }
 
 #titulo{
@@ -38,4 +39,20 @@
   font-style: normal;
   color: DarkRed;
   background-color: DarkGray;
+}
+
+/*----------------------------------------------------*/
+
+.Div_02{
+
+  width: 480px;
+
+  background: DarkGreen;
+
+}
+
+#texto_02{
+  font-size: 25px;
+  font-family:monospace;
+  color:red;
 }
