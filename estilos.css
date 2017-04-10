@@ -1,0 +1,18 @@
+.Fondo{
+  background-image: url("fondo.png");
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+.PrimTitulo{
+  text-align: center;
+  color: "red";
+
+  font-family: sans-serif;
+  font-style:oblique;
+}
