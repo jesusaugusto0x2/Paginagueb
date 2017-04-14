@@ -12,12 +12,12 @@ function cambiarColor(){
   indice ++;
 }
 
-function cambiarFondo(){
+function hola(){
   if(indi == -1){
     indi = colores.length;
   }
 
-  document.getElementById("division_02").style.background-color = colores[indi];
+  document.getElementById("division_02").style.background = colores[indi];  
   indi --;
 }
 
