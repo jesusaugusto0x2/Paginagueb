@@ -12,13 +12,4 @@ function cambiarColor(){
   indice ++;
 }
 
-function hola(){
-  if(indi == -1){
-    indi = colores.length;
-  }
-
-  document.getElementById("division_02").style.background = colores[indi];  
-  indi --;
-}
-
 var intervalo = setInterval(cambiarColor, 80);

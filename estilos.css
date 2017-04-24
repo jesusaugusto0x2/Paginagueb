@@ -1,4 +1,7 @@
 .Fondo{
+  margin: 0px;
+  padding: 0px;
+
   background-image: url("fondo.png");
 
   -webkit-background-size: cover;
@@ -9,14 +12,25 @@
   background-color: black;
 }
 
+.clear{
+  clear: both;
+}
+
 /*----------------------------------------------------*/
 #Div_Titulo{
-/*background-color: blue;*/
-
+  clear: both;
+  width: 750px;
   margin: 0 auto;
-  width: 1000px;
+
   font-family: sans-serif;
   font-style:oblique;
+}
+
+#titulo{
+  position: relative;
+  width: 320px;
+
+  margin-left: 210px;
 }
 
 #img_iluminati01{
@@ -24,41 +38,11 @@
   float: left;
 }
 
-#titulo{
-  /*background-color: yellow;*/
-  width: 500px;
-  margin: 0 auto;
-
-  padding-left: 200px;
-}
-
 #img_iluminati02{
   position: relative;
   float: right;
-
-  bottom: 37px;
+  bottom: 60px;
 }
 /*----------------------------------------------------*/
 
-#Div_01{
-  clear: both;
-
-  width: 310px;
-
-  color:DarkRed;
-  background: DarkGrey;
-
-  text-align: center;
-  font-family: sans-serif;
-
-  border: 1px solid black;
-  outline-style: groove;
-  outline-color: red;
-}
-
 /*----------------------------------------------------*/
-
-#Div_02{
-  color: red;
-  background: DarkGrey;
-}
