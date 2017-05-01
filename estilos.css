@@ -8,6 +8,9 @@
 
   background-repeat: no-repeat;
   background-color: #08080a;
+
+  font-family: "Calibri", verdana, sans-serif;
+  color: white;
 }
 
 .clear{
@@ -17,7 +20,35 @@
 .divCentrado{
   margin: 0 auto;
   position: relative;
-  font-family: "Calibri", verdana, sans-serif;
+}
+
+.div_extraInf{
+  width: 225px;
+  height: 280px;
+
+  margin: 5px;
+
+  float:left;
+  border: 2px solid #000000;
+  border-radius: 15px;
+}
+
+.div_extraInf p{
+  text-align: center;
+}
+
+.subtExtra{
+  text-align: center;
+  color: #48D8DD;
+}
+
+.lista a{
+  color:white;
+  text-decoration: none;
+}
+
+.lista a:hover{
+  color: #48D8DD;
 }
 /*----------------------------------------------------*/
 #Div_Titulo{
@@ -25,8 +56,6 @@
   margin: 0 auto;
   position: fixed;
   width: 100%;
-
-  font-family: "Calibri", verdana, sans-serif;
 
   background-color: #08080a;
   opacity: 0.4;
@@ -43,6 +72,17 @@
 
   color: #f3f2f9;
   opacity: 1;
+}
+
+#img_titulo{
+  float: left;
+  position: relative;
+
+  width: 25px;
+  height: 25px;
+
+  top: 8px;
+  left: 15px;
 }
 /*------------------------------------------------------------------*/
 #contenedorPag{
@@ -76,7 +116,6 @@
 
 #text_present{
   text-align: center;
-  color: white;
 }
 
 /*-------------------------------------------*/
@@ -88,22 +127,22 @@
   opacity: 0.9;
 
   border-radius: 15px;
+
+  font-family:
 }
 
 #titulo_infoGen{
-  color: white;
   margin-left: 20px;
   padding-top: 10px;
+
+  color: #48D8DD;
 }
 
 #parraf_infoGen{
   width: 350px;
 
   float: left;
-
   margin-left: 30px;
-
-  color: white;
 }
 
 #img_infoGen{
@@ -114,6 +153,50 @@
   margin-right: 30px;
   top: 20px;
 }
-
 /*-------------------------------------------*/
+#div_infoExtra{
+  width: 60%;
+  height: 400px;
+
+  position: relative;
+
+  float: left;
+
+  margin-top: 20px;
+  margin-left: 20px;
+
+  border-radius: 15px;
+
+  opacity: 0.8;
+  background-color: #120b1c;
+}
+
+#div_tituloExtra{
+  width: 100%;
+  height: 42px;
+
+  color: #48D8DD;
+}
+
+#tituloExtra{
+  margin-left: 25px;
+}
+
+#div_musica{
+  border-color: #D0C030;
+}
+
+#div_juegos{
+  border-color: #2352B5;
+}
+
+#div_anime{
+  border-color: #C52020;
+}
+
+#super_link{
+  text-decoration: none;
+  font-weight: 600;
+  color: #F80000;
+}
 /*-----------------------------------------------------------------*/
