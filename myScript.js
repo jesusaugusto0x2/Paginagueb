@@ -1,15 +1,22 @@
 var indice = 0;
-var colores = ["blue", "yellow", "red", "green", "cyan", "pink"];
+var colores = ["imagenes/img_01.jpg",
+                "imagenes/img_02.jpg",
+                "imagenes/img_03.jpg",
+                "imagenes/img_04.jpg",
+                "imagenes/img_05.png",
+                "imagenes/img_06.jpg",
+                "imagenes/img_07.jpg",
+                "imagenes/img_08.jpg"];
 
 var indi = colores.length;
 
-function cambiarColor(){
+function cambiarImagenPrin(){
   if(indice == colores.length){
     indice = 0;
   }
 
-  document.getElementById("titulo").style.color = colores[indice];
+  document.getElementById("img_infoGen").src = colores[indice];
   indice ++;
 }
 
-var intervalo = setInterval(cambiarColor, 80);
+var intervalo = setInterval(cambiarImagenPrin, 100);
