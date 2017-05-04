@@ -13,6 +13,15 @@
   color: white;
 }
 
+.tachado{
+  color: black;
+  background-color: black;
+}
+
+.tachado:hover{
+  color:white;
+}
+
 .clear{
   clear: both;
 }
