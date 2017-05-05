@@ -1,0 +1,72 @@
+body{
+  margin: 0px;
+  padding: 0px;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+  background-repeat: no-repeat;
+  background-color: #08080a;
+
+  font-family: "Calibri", verdana, sans-serif;
+  color: white;
+}
+
+.tachado{
+  color: white;
+  background-color: white;
+}
+
+.tachado:hover{
+  color:black;
+}
+
+.clear{
+  clear: both;
+}
+
+#Div_Titulo_Musica{
+  width: 100%;
+  position: absolute;
+  background-color: #08080a;
+
+  opacity: 0.6;
+}
+
+#titulo_principal_musica{
+  margin: 0 auto;
+  text-align: center;
+}
+
+#contenedorPag_Musica{
+  margin: 0 auto;
+  width: 90%;
+  height: 660px;
+
+  background-image: url("imagenes/fondo_musica.jpg");
+}
+
+#div_presentacion_musica{
+  position: relative;
+  float: left;
+
+  width: 50%;
+  height: 400px;
+
+  background-color: #08080a;
+  opacity: 0.6;
+
+  margin-top: 80px;
+  margin-left: 40px;
+
+  border-radius: 20px;
+}
+
+#titulo_divPresent{
+  margin-left: 40px;
+}
+
+#parrafo_present{
+  margin: 5px 15px 0 15px;
+}

@@ -13,6 +13,30 @@
   color: white;
 }
 
+.botonEnlace{
+  width: 18%;
+  height: 35px;
+
+  background: none;
+
+
+  margin: 5px 15px 5px 15px;
+
+  border: 2px solid #48D8DD;
+  border-radius: 10px;
+}
+
+.botonEnlace:hover{
+  background-color:white;
+}
+
+.botonEnlace a{
+  color: #48D8DD;
+  text-decoration: none;
+
+  font-size: 18px;
+}
+
 .tachado{
   color: black;
   background-color: black;
@@ -44,20 +68,6 @@
 
 .div_extraInf p{
   text-align: center;
-}
-
-.subtExtra{
-  text-align: center;
-  color: #48D8DD;
-}
-
-.lista a{
-  color:white;
-  text-decoration: none;
-}
-
-.lista a:hover{
-  color: #48D8DD;
 }
 /*----------------------------------------------------*/
 #Div_Titulo{
@@ -96,7 +106,7 @@
 /*------------------------------------------------------------------*/
 #contenedorPag{
   width: 90%;
-  height: 1500px;
+  height: 1250px;
   margin: 0 auto;
 
   background-image: url("imagenes/fondo_02.jpg");
@@ -165,7 +175,7 @@
 /*-------------------------------------------*/
 #div_infoExtra{
   width: 60%;
-  height: 400px;
+  height: 150px;
 
   position: relative;
 
@@ -189,23 +199,5 @@
 
 #tituloExtra{
   margin-left: 25px;
-}
-
-#div_musica{
-  border-color: #D0C030;
-}
-
-#div_juegos{
-  border-color: #2352B5;
-}
-
-#div_anime{
-  border-color: #C52020;
-}
-
-#super_link{
-  text-decoration: none;
-  font-weight: 600;
-  color: #F80000;
 }
 /*-----------------------------------------------------------------*/
