@@ -13,6 +13,15 @@ body{
   color: white;
 }
 
+.divs_musica{
+  position: relative;
+  float: left;
+
+  opacity: 0.6;
+  border-radius: 20px;
+  background-color: #08080a;
+}
+
 .tachado{
   color: white;
   background-color: white;
@@ -24,6 +33,25 @@ body{
 
 .clear{
   clear: both;
+}
+
+.imagenAlbum{
+  position: relative;
+  float: left;
+
+  width: 100px;
+  height: 100px;
+
+  margin-left: 16px;
+
+  transition:all 0.3s ease;
+}
+
+.imagenAlbum:hover{
+  width: 120px;
+  height: 120px;
+
+  bottom: 10px;
 }
 
 #Div_Titulo_Musica{
@@ -44,23 +72,15 @@ body{
   width: 90%;
   height: 660px;
 
-  background-image: url("imagenes/fondo_musica.jpg");
+  background-image: url("imagenes/fondos/fondo_musica.jpg");
 }
 
 #div_presentacion_musica{
-  position: relative;
-  float: left;
-
   width: 50%;
-  height: 400px;
-
-  background-color: #08080a;
-  opacity: 0.6;
+  height: 200px;
 
   margin-top: 80px;
   margin-left: 40px;
-
-  border-radius: 20px;
 }
 
 #titulo_divPresent{
@@ -69,4 +89,15 @@ body{
 
 #parrafo_present{
   margin: 5px 15px 0 15px;
+}
+
+/*-------------------------------------*/
+
+#div_albumes{
+  margin: 0 auto;
+  width: 88%;
+  height: 190px;
+
+  margin-left: 55px;
+  top: 150px;
 }

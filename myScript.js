@@ -1,12 +1,12 @@
 var indice = 0;
-var colores = ["imagenes/img_01.jpg",
-                "imagenes/img_02.jpg",
-                "imagenes/img_03.jpg",
-                "imagenes/img_04.jpg",
-                "imagenes/img_05.png",
-                "imagenes/img_06.jpg",
-                "imagenes/img_07.jpg",
-                "imagenes/img_08.jpg"];
+var colores = ["imagenes/gif/img_01.jpg",
+                "imagenes/gif/img_02.jpg",
+                "imagenes/gif/img_03.jpg",
+                "imagenes/gif/img_04.jpg",
+                "imagenes/gif/img_05.png",
+                "imagenes/gif/img_06.jpg",
+                "imagenes/gif/img_07.jpg",
+                "imagenes/gif/img_08.jpg"];
 
 var indi = colores.length;
 
