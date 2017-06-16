@@ -2,81 +2,84 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="estilos.css">
-    <script src = "myScript.js"></script>
+    <title>Mainpage</title>
 
-    <title>Thousands of Cherry Trees</title>
+    <link rel = "stylesheet" href = "css/estilo_index.css">
+
+    <script src = "jquery/jquery.js"></script>
+    <script src = "jquery/jquery-ui.js"></script>
+    <script src = "js/script_portada.js"></script>
+
   </head>
 
-  <body class = "Fondo">
+  <body>
 
-    <div id = "Div_Titulo">
-      <h1 id = "titulo_principal">
-        <img id = "img_titulo" src = "imagenes/iluminati_gif.gif">
-        Tryhard webpage inboud, trying ma best :^(
-      </h1>
+    <div id = "titulo_prin" class = "div_index">
+      <span id = "parraf_tituloPrin">
+        Ok now, this is like a 2nd version of my webpage.. Still kinda tryhard tho..
+      </span>
     </div>
 
-    <!---------------------------------------------------->
-    <div id = "contenedorPag">
-      <!---------------------------------------------------->
-      <div id = "div_presentacion" class = "divCentrado">
-        <img id = "img_present" src = "imagenes/opcat.jpg">
+    <div id = "contenedor_prin">
 
-        <h3 id = "text_present">
-          Not the best </br>
-          Not the smartest <br>
-          Not even the coolest </br> </br>
+        <div id = "div_present" class = "div_index">
 
-          But maybe I can get somewhere, someday... </br>
-        </h4>
-      </div>
-      <!---------------------------------------------------->
-      <div class = "clear">
-      </div>
-      <!---------------------------------------------------->
-      <div id = "div_infoGeneral" class = "divCentrado">
+          <div id = "div_parrafNombre">
+            <span id = "parraf_nombre" class = "texto">
+              Well, my name should be here (?)
+            </span>
+          </div>
 
-        <h2 id = "titulo_infoGen">
-          Hello there! There's some info about myself...
-        </h2>
+          <div>
+            <span id = "parraf_inf" class = "texto">
+              I don't consider myself cool, or smart, I'm actually kinda dumb
+            </span>
+          </div>
 
-        <p id = "parraf_infoGen">
-          So, I'm 21 yo actually, haven't been the smartest kid in town and also
-          I think I'll never be, but that's not the point of this. </br></br>
-
-          I'm living in Venezuela. <black class = "tachado"> VIVA CHAVEZ </black> And
-          unlike most of young people here, I'm really proud of my country, there's nothing to feel
-          ashamed of... Sad thing is goverment and other organizations have literally
-          fucked up everything in here, and population isn't that helpful, so it seems
-          like my only way out is emigration. </br></br>
-
-          Well, not sure if I will be able to get out of this, let's hope I can. </br></br>
-
-          In other things, I'm studying computing sciences, not sure if I will be
-          good at this, for sure I'm trying but you know... Sometimes I just feel like
-          I'm not good enough. Anyway, I'm "developing" this website as a practice for my studies and also
-          because I kinda like this, maybe I can do this for a living, let's see... </br></br>
-        </p>
-
-        <img src = "imagenes/img_01.jpg" id = "img_infoGen">
-      </div>
-      <!---------------------------------------------------->
-      <div class = "clear">
-      </div>
-      <!---------------------------------------------------->
-      <div id = "div_infoExtra">
-
-        <div id = "div_tituloExtra">
-          <h2 id = "tituloExtra"> And now, some stuff I like... </h4>
         </div>
 
-        <div id = "div_enlaces">
-          <button class = "botonEnlace"> <a href = "musica.html"> Music </a> </button>
+        <div id = "div_info" class = "div_index">
+
+          <div id = "div_parrafInfo">
+            <span id = "parraf_info" class = "texto">
+              Here's more about me...
+            </span>
+          </div>
+
+          <div class = "clear"> </div>
+
+          <div id = "div_botonesInfo">
+
+            <a href = "info_index.html">
+              <div id = "botonInfo" class = "boton_info" data-toggle = "tooltip" data-placement = "top" title = "ayy">
+                <span class = "texto text_info"> Info </span>
+              </div>
+            </a>
+            
+            <div class = "boton_info">
+              <span class = "texto text_info"> Thoughts </span>
+            </div>
+
+            <div class = "boton_info">
+              <span class = "texto text_info"> Music </span>
+            </div>
+
+            <div class = "boton_info">
+              <span class = "texto text_info"> Misc </span>
+            </div>
+
+            <div class = "boton_info">
+              <span class = "texto text_info"> Friends </span>
+            </div>
+
+            <div class = "boton_info">
+              <span class = "texto text_info"> ???? </span>
+            </div>
+
+          </div>
+
         </div>
-        <!---------------------------------------------------->
-      </div>
     </div>
+
   </body>
-
 </html>

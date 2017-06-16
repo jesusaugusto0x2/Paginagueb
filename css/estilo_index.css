@@ -1,0 +1,99 @@
+body{
+  padding: 0;
+  margin: 0;
+
+  background-color: #0D0202;
+
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.clear{
+  clear:both;
+}
+
+.text_info{
+  font-size: 20px;
+}
+
+.text_infoActivo{
+  font-size: 22px;
+}
+
+.texto{
+  clear: both;
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.div_index{
+  position: relative;
+  margin: 0 auto;
+  background-color: #0D0202;
+  color: white;
+  text-align: center;
+}
+
+.boton_info{
+  position: relative;
+  display: inline-block;
+  width: 110px;
+  height: 50px;
+
+  margin-top: 8px;
+  margin-left: 15px;
+
+  border-radius: 30px;
+  border: solid 2px white;
+  color: white;
+}
+
+.boton_infoActivo{
+  width: 117px;
+  border-color: red;
+  color: #C81B13;
+}
+
+#titulo_prin{
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  opacity: 0.4;
+  font-size: 24px;
+}
+
+#parraf_tituloPrin{
+  position: relative;
+  top: 10px;
+}
+
+#contenedor_prin{
+  margin: 0 auto;
+  width: 90vw;
+  height: 100vh;
+}
+
+#div_present{
+  width: 60%;
+  height: 130px;
+  top: 170px;
+  border-radius: 20px;
+}
+
+#div_parrafNombre{
+  width: 100%;
+  height: 80px;
+}
+
+#parraf_nombre{
+  position: relative;
+  font-size: 42px;
+}
+
+#div_info{
+  display: none;
+  width: 70%;
+  height: 105px;
+  margin-top: 260px;
+  border-radius: 60px;
+}
