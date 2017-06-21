@@ -13,10 +13,13 @@ body{
 
 .text_info{
   font-size: 20px;
+  color: white;
+  text-decoration: none;
 }
 
 .text_infoActivo{
   font-size: 22px;
+  color: #C81B13;
 }
 
 .texto{
@@ -52,6 +55,15 @@ body{
   width: 117px;
   border-color: red;
   color: #C81B13;
+}
+
+.link_div{
+  color: white;
+}
+
+.link_divActivo{
+  font-size: 22px;
+
 }
 
 #titulo_prin{
