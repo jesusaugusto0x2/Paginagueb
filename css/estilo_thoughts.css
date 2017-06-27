@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #0B0802;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.texto{
+  position: relative;
+  font-size:22px;
+  color:white;
+  top: 5px;
+}
+
+#divSuperior{
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  background-color: #0B0802;
+  opacity: 0.6;
+  text-align: center;
+}
+
+#divPrincipal{
+  margin: 0 auto;
+  width: 90%;
+  height: 100vh;
+  background-color: red;
+  background-image: url("imagenes/fondos/fondo_thoughts.jpg");
+}
