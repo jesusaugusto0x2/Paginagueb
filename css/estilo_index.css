@@ -31,6 +31,7 @@ body{
 
 .div_index{
   position: relative;
+  cursor: pointer;
   margin: 0 auto;
   background-color: #0D0202;
   color: white;
@@ -104,7 +105,7 @@ body{
 
 #div_info{
   display: none;
-  width: 70%;
+  width: 60%;
   height: 105px;
   margin-top: 260px;
   border-radius: 60px;

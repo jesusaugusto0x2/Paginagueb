@@ -5,11 +5,58 @@ body{
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
+.pensamiento{
+
+}
+
+.imagen{
+  position: fixed;
+  width: 600px;
+  height: 400px;
+}
+
 .texto{
   position: relative;
   font-size:22px;
   color:white;
   top: 5px;
+}
+
+.superior, .inferior{
+  position: absolute;
+  width: 100%;
+  background-color: black;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.inferior{
+  bottom: 0;
+}
+
+.anterior, .siguiente{
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.siguiente {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.siguiente:hover, .anterior:hover{
+  opacity: 0.8;
 }
 
 #divSuperior{
@@ -25,6 +72,13 @@ body{
   margin: 0 auto;
   width: 90%;
   height: 100vh;
-  background-color: red;
   background-image: url("imagenes/fondos/fondo_thoughts.jpg");
+}
+
+#contenedor{
+  position: relative;
+  width: 600px;
+  height: 400px;
+  left: 3%;
+  top: 25%;
 }
