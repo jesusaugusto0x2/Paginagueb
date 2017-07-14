@@ -18,7 +18,7 @@ body{
 }
 
 .text_infoActivo{
-  font-size: 22px;
+  font-size: 24px;
   color: #C81B13;
 }
 
@@ -26,7 +26,7 @@ body{
   clear: both;
   position: relative;
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 .div_index{
@@ -53,7 +53,7 @@ body{
 }
 
 .boton_infoActivo{
-  width: 117px;
+  width: 120px;
   border-color: red;
   color: #C81B13;
 }
@@ -64,7 +64,6 @@ body{
 
 .link_divActivo{
   font-size: 22px;
-
 }
 
 #titulo_prin{
@@ -106,7 +105,7 @@ body{
 #div_info{
   display: none;
   width: 60%;
-  height: 105px;
+  height: 102px;
   margin-top: 260px;
   border-radius: 60px;
 }
