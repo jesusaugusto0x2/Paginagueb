@@ -1,9 +1,7 @@
 body{
   padding: 0;
   margin: 0;
-
   background-color: #0D0202;
-
   font-family: Verdana, Geneva, sans-serif;
 }
 
@@ -69,7 +67,7 @@ body{
 #titulo_prin{
   position: fixed;
   width: 100%;
-  height: 60px;
+  height: 50px;
   opacity: 0.4;
   font-size: 24px;
 }

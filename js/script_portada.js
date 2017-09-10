@@ -12,7 +12,7 @@ function cambiarRojo(){
 
 function cambiarBlanco(){
   $("#parraf_nombre").css("color", "white");
-  $("#parraf_nombre").html("ROBERTO TE AMOOOO");
+  $("#parraf_nombre").html("My name should appear here...");
 
   $("#parraf_inf").css("color", "white");
   $("#parraf_inf").html("I don't consider myself cool, or smart, I'm actually kinda dumb");
