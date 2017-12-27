@@ -1,23 +1,3 @@
-function aparecerInfo(){
-  $("#div_info").delay(800).fadeIn();
-}
-
-function cambiarRojo(){
-  $("#parraf_nombre").css("color", "#C81B13");
-  $("#parraf_nombre").html("Jesús Augusto");
-
-  $("#parraf_inf").css("color", "#C81B13");
-  $("#parraf_inf").html("Not like Jesuschrist, lmao <strike> RED 'CAUSE I LOVE CHAVEZ </strike>");
-}
-
-function cambiarBlanco(){
-  $("#parraf_nombre").css("color", "white");
-  $("#parraf_nombre").html("My name should appear here...");
-
-  $("#parraf_inf").css("color", "white");
-  $("#parraf_inf").html("I don't consider myself cool, or smart, I'm actually kinda dumb");
-}
-
 $(function(){
 
   var ancho = $("#contenedor_prin").width() / 6;
@@ -31,24 +11,34 @@ $(function(){
     "background-size": tama,
     "background-image": "url('gif_fondo02.gif')"
   });
-
 });
 
+function aparecerInfo(){
+  $("#div_info").fadeIn("slow");
+}
+
+function cambiarRojo(){
+  $("#nombre").css("color", "#C81B13");
+  $("#nombre").html("Jesús Augusto");
+
+  $("#inf").css("color", "#C81B13");
+  $("#inf").html("<small>Don't know where I am, or what I'm supposed to do...</small>");
+}
+
+function cambiarBlanco(){
+  $("#nombre").css("color", "#CCBDBD");
+  $("#nombre").html("Wanna know my name?");
+
+  $("#inf").css("color", "#CCBDBD");
+  $("#inf").html("<small>Just move your mouse around here</small>");
+}
+
 $(function(){
-  $("#div_parrafNombre").hover(function(){
+  $("#div_nombre").hover(function(){
     cambiarRojo();
     aparecerInfo();
+    console.log("hola");
   }, function(){
     cambiarBlanco();
-  });
-});
-
-$(function(){
-  $(".boton_info").hover(function(){
-    $(this).addClass("boton_infoActivo");
-    $(this).children().addClass("text_infoActivo");
-  }, function(){
-    $(this).removeClass("boton_infoActivo");
-    $(this).children().removeClass("text_infoActivo");
   });
 });
